@@ -26,6 +26,22 @@ class SubItem extends Item
         $this->animal = $_animal;
     }
 }
+
+class Animals
+{
+    public $name;
+
+    function __construct($_name)
+    {
+        $this->name = $_name;
+    }
+}
+
+$cane = new Animals('cane');
+$gatto = new Animals('gatto');
+$pesce = new Animals('pesce');
+$uccello = new Animals('uccello')
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
