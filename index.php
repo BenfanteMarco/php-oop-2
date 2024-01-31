@@ -1,3 +1,32 @@
+<?php 
+class Item
+{
+    public $itemName;
+    public $price;
+    public $img;
+
+
+    public function __construct($_itemName, $_price, $_img)
+    {
+        $this->itemName = $_itemName;
+        $this->price = $_price;
+        $this->img = $_img;
+    }
+}
+
+class SubItem extends Item
+{
+    public $type;
+    public $animal;
+
+    function __construct($_itemName, $_price, $_img, $_type, Animals $_animal)
+    {
+        parent::__construct($_itemName, $_price, $_img);
+        $this->type = $_type;
+        $this->animal = $_animal;
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
