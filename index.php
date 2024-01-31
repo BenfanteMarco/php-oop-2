@@ -42,6 +42,17 @@ $gatto = new Animals('gatto');
 $pesce = new Animals('pesce');
 $uccello = new Animals('uccello')
 
+
+$Products = [
+    new SubItem ('Royal Canin', 'Mini Adult', 4.34, 'https://arcaplanet.vtexassets.com/arquivos/ids/284621/Mini-Adult.jpg?v=638182891693570000', 'cibo', $cane),
+    new SubItem ('Almo Nature', 'Holistic Maintenance Medium Large Tonno e Riso', 6, 'ttps://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg', 'cibo', $cane),
+    new SubItem ('Almo Nature', 'Cat Daily Lattina', 25, 'https://arcaplanet.vtexassets.com/arquivos/ids/284621/Mini-Adult.jpg?v=638182891693570000', 'cibo', $cane),
+    new SubItem ('Tetra', 'Mangime per Pesci Guppy in Fiocchi', 2.56, 'https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg', 'cibo', $pesce),
+    new SubItem ('Voliera', 'Wilma in Legno', 78, 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', 'gabbia', $uccello),
+    new SubItem ('EasyCrystal', 'Cartucce Filtranti per Filtro ', 5.33, 'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', 'acquario', $pesce),
+    new SubItem ('Kong', 'Kong Classic', 4.99, 'https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg', 'gioco', $cane),
+    new SubItem ('Trixie', 'Topini di peluche', 2.55, 'https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg', 'gioco', $gatto),
+];
 ?>
 <!DOCTYPE html>
 <html lang="en">
