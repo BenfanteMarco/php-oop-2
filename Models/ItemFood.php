@@ -8,9 +8,9 @@ class ItemFood extends Item
     public $kcals;
     public $expire_date;
 
-    function __construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_category, $_kcals, $_peso, $_expire_date)
+    function __construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_animals, $_kcals, $_peso, $_expire_date)
     {
-        parent::__construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_category);
+        parent::__construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_animals);
         $this->peso = $_peso;
         $this->kcals = $_kcals;
         $this->expire_date = $_expire_date;

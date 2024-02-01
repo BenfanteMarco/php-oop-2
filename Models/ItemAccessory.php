@@ -8,10 +8,10 @@ class ItemAccessory extends Item
     public $material;
     public $durability;
 
-    function __construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_category, $_material, $_peso, $_durability)
+    function __construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_animals, $_material, $_peso, $_durability)
     {
-        parent::__construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_category);
-        $this->category = $_category;
+        parent::__construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, $_animals);
+        $this->animals = $_animals;
         $this->peso = $_peso;
         $this->material = $_material;
         $this->durability = $_durability;

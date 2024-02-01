@@ -11,8 +11,8 @@ class Item
     public $animals;
 
 
-    public function __construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, Animals, $animals)
-    {
+    public function __construct($_manufacturingCompany, $_itemName, $_prezzo, $_img, Animals $_animals){
+
         $this->manufacturingCompany = $_manufacturingCompany;
         $this->itemName = $_itemName;
         $this->prezzo = $_prezzo;
